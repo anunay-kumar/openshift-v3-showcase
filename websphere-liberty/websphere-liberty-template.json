@@ -28,13 +28,13 @@
             "description": "URL to the source code repository hosting your WebSphere Liberty application (e.g. https://github.com/sebastianfaulhaber/openshift-v3-showcase.git)",
             "name": "SOURCE_REPOSITORY_URL",
             "value": "https://github.com/sebastianfaulhaber/openshift-v3-showcase.git",
-            "required": true
+            "required": false
         },
         {
             "description": "Git branch/tag reference.",
             "name": "SOURCE_REPOSITORY_REF",
             "value": "master",
-            "required": true
+            "required": false
         },
         {
             "description": "Path within Git project to build; empty for root project directory.",
